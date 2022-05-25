@@ -18,10 +18,11 @@ describe('verify authority', () => {
     });
 });
 
-let password = 'AAAAa1';
+let password = 'a111';
+
 describe('Validate password ->', () => {
 
-    describe('checking case', () => {
+    describe('checking case ->', () => {
         it('password should contain uppercase', () => {
 
             expect(hasUppercase(password)).toBe(true);
